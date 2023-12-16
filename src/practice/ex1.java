@@ -2,7 +2,7 @@ package practice;
 //연습문제중 "달리기 경주" 문제
 //level1
 import java.util.*;
-class Solution {
+class ex1 {
     public String[] solution(String[] players, String[] callings) {
         HashMap<String, Integer> map = new HashMap<>();
         String[] answer = players;

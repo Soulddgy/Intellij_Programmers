@@ -5,8 +5,13 @@ import java.util.*;
 // 신규 아이디 추천
 // level 1
 
-class Ex1 {
-    public String ex1(String new_id) {
+class ex1 {
+
+    public static void main(String[] args) {
+        System.out.print(solution("123._#2123"));
+
+    }
+    public static String solution(String new_id) {
 
         String answer1 = "";
         new_id = new_id.toLowerCase();
@@ -49,7 +54,6 @@ class Ex1 {
         }
 
 
-        System.out.print(answer2);
         return answer2;
     }
 
